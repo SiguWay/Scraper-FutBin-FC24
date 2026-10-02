@@ -35,13 +35,13 @@ A robust Python web scraper built using the **Scrapling** library (`DynamicFetch
 The script features a built-in CLI for easy customization.
 
 Basic Commands:
-  ```bash
+```bash
     # Show the help menu with all available options
     python futbin_scraper.py --help
     
     # Run the scraper with default options (2 pages)
     python futbin_scraper.py
-    ```
+```
 Advanced Examples:
 ```bash
     # Scrape exactly 5 pages
