@@ -42,8 +42,8 @@ Commandes de base :
   # Voir le menu d'aide avec toutes les options disponibles
   python futbin_scraper.py --help
 
-    # Lancer le scraper avec les options par défaut (2 pages)
-    python futbin_scraper.py
+  # Lancer le scraper avec les options par défaut (2 pages)
+  python futbin_scraper.py
 ```
 
 Exemples avancés :
