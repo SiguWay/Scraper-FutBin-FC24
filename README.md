@@ -28,8 +28,8 @@ A robust Python web scraper built using the **Scrapling** library (`DynamicFetch
 
 3. Download the necessary browser binaries for Scrapling/Playwright:
   ```bash
-   python -m playwright install```
-
+   python -m playwright install
+   ```
 ## ⚙️ Usage
 
 The script features a built-in CLI for easy customization.
