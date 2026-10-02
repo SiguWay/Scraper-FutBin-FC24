@@ -1,0 +1,6 @@
+﻿fc24-scraper/
+venv/
+.env/
+__pycache__/
+*.pyc
+database_complete.json
