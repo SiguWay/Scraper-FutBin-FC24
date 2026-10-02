@@ -18,18 +18,18 @@ A robust Python web scraper built using the **Scrapling** library (`DynamicFetch
 ## 📦 Installation
 
 1. Clone the repository:
-   ```bash
+```bash
    git clone [https://github.com/SiguWay/Scraper-FutBin-FC24.git](https://github.com/SiguWay/Scraper-FutBin-FC24.git)
    cd Scraper-FutBin-FC24
-    ```
+```
 2. Install the required Python packages:
-   ```bash
+```bash
    python -m pip install -r requirements.txt
-    ```
+```
 3. Download the necessary browser binaries for Scrapling/Playwright:
-   ```bash
+```bash
    python -m playwright install
-    ```
+```
 ## ⚙️ Usage
 
 The script features a built-in CLI for easy customization.

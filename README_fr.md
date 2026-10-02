@@ -18,32 +18,36 @@ Un script de web scraping robuste développé en Python utilisant la librairie *
 ## 📦 Installation
 
 1. Clonez le dépôt :
-   ```bash
+```bash
    git clone [https://github.com/SiguWay/Scraper-FutBin-FC24.git](https://github.com/SiguWay/Scraper-FutBin-FC24.git)
-   cd Scraper-FutBin-FC24```
+   cd Scraper-FutBin-FC24
+```
 
 2. Installez les dépendances Python requises :
-  ```bash
-  python -m pip install -r requirements.txt```
+```bash
+  python -m pip install -r requirements.txt
+```
 
 3. Téléchargez les binaires de navigateur nécessaires pour Playwright :
-  ```bash
-  python -m playwright install```
+```bash
+  python -m playwright install
+```
 
 ## ⚙️ Utilisation
 
 Le script intègre une interface en ligne de commande (CLI) simple et puissante.
 
 Commandes de base :
-  ```bash
+```bash
   # Voir le menu d'aide avec toutes les options disponibles
   python futbin_scraper.py --help
 
     # Lancer le scraper avec les options par défaut (2 pages)
-    python futbin_scraper.py```
+    python futbin_scraper.py
+```
 
 Exemples avancés :
-  ```bash
+```bash
   # Scraper exactement 5 pages
   python futbin_scraper.py -p 5
   
@@ -51,5 +55,6 @@ Exemples avancés :
   python futbin_scraper.py -p 100 -r 88
   
   # Scraper sans délai de sécurité (⚠️ Attention au risque élevé de bannissement IP)
-  python futbin_scraper.py -p 3 --no-delay```
+  python futbin_scraper.py -p 3 --no-delay
+```
   Les données extraites seront exportées dans un fichier database_complete.json.
