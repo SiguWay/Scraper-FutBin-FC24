@@ -43,7 +43,7 @@ Basic Commands:
     python futbin_scraper.py
     ```
 Advanced Examples:
-  ```bash
+```bash
     # Scrape exactly 5 pages
     python futbin_scraper.py -p 5
     
@@ -52,5 +52,5 @@ Advanced Examples:
     
     # Scrape without human-like delays **(⚠️ Warning: High risk of IP ban)**
     python futbin_scraper.py -p 3 --no-delay
-    ```
+```
 The scraped data will be exported to a database_complete.json file.
