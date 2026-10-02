@@ -20,12 +20,12 @@ A robust Python web scraper built using the **Scrapling** library (`DynamicFetch
 1. Clone the repository:
    ```bash
    git clone [https://github.com/SiguWay/Scraper-FutBin-FC24.git](https://github.com/SiguWay/Scraper-FutBin-FC24.git)
-   cd Scraper-FutBin-FC24```
-
+   cd Scraper-FutBin-FC24
+    ```
 2. Install the required Python packages:
    ```bash
-   python -m pip install -r requirements.txt```
-
+   python -m pip install -r requirements.txt
+    ```
 3. Download the necessary browser binaries for Scrapling/Playwright:
   ```bash
    python -m playwright install
@@ -40,8 +40,8 @@ Basic Commands:
     python futbin_scraper.py --help
     
     # Run the scraper with default options (2 pages)
-    python futbin_scraper.py```
-
+    python futbin_scraper.py
+    ```
 Advanced Examples:
   ```bash
     # Scrape exactly 5 pages
@@ -51,5 +51,6 @@ Advanced Examples:
     python futbin_scraper.py -p 100 -r 88
     
     # Scrape without human-like delays **(⚠️ Warning: High risk of IP ban)**
-    python futbin_scraper.py -p 3 --no-delay```
+    python futbin_scraper.py -p 3 --no-delay
+    ```
 The scraped data will be exported to a database_complete.json file.
