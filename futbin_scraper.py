@@ -73,8 +73,7 @@ def main():
     parser.add_argument("-r", "--min-rating", type=int, default=0, help="Stop scraping if a player rating drops below this value")
     args = parser.parse_args()
 
-    DynamicFetcher.configure(headless=True)
-    fetcher = DynamicFetcher()
+    fetcher = DynamicFetcher(headless=True)
 
     full_database = []
     stop_scraping = False
